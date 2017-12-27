@@ -1,0 +1,12 @@
+HTTrack3.49-2 launched on Thu, 28 Dec 2017 02:05:33 at https://otaku-coin.com +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(httrack -O /storage/emulated/0/HTTrack/Websites/OTKCOIN -A25000k%Pnx%q0u1s2%s%u%fkDaK0p7H0N0 https://otaku-coin.com +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2017], %s -->" -%l LANGUAGE_ISO,* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+02:06:34	Error: 	"Not Found" (404) at link https://otaku-coin.com/common/images/favicon.ico (from https://otaku-coin.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 50 seconds : 53 links scanned, 50 files written (11237860 bytes overall) [11214154 bytes received at 38669 bytes/sec], 86329 bytes transferred using HTTP compression in 7 files, ratio 30%, 3.3 requests per connection
+(1 errors, 0 warnings, 0 messages)

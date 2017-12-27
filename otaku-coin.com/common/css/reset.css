@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+}
+
+body{
+	-webkit-text-size-adjust: 100%;
+	word-wrap : break-word;
+	overflow-wrap : break-word;
+}
+
+/* Reset
+------------------------------------------------------------*/
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td
+{
+	margin: 0;
+	padding: 0;
+}
+address,
+em
+{
+	font-style: normal;
+}
+strong,
+th
+{
+	font-weight: normal;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+th
+{
+	text-align: left;
+}
+hr,
+legend
+{
+	display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-size: 100%;
+	font-weight: normal;
+}
+img,
+fieldset
+{
+	border: 0;
+}
+img
+{
+	border:0;
+	vertical-align:top;
+	max-width:100%;
+	height:auto;
+}
+li
+{
+	list-style-type: none;
+}
+input[type="submit"],button,label,select{
+	cursor:pointer;
+}
+p
+{
+	line-height: 1.6;
+}
+* {
+	-webkit-appearance: none;/*iosフォームリセット*/
+}
+
+
+/* Fonts
+------------------------------------------------------------*/
+body,input,button,textarea,select
+{
+	font: 16px/1.4 "Raleway","游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	color: #666;
+}
+html>/**/body
+{
+	font-size: 16px;
+	letter-spacing: 0px;
+} /* Except IE */
+.clear
+{
+	clear: both;
+}
+
+/* link
+------------------------------------------------------------*/
+a,a:visited {
+	transition: all .4s;
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:hover,a:active{
+  opacity: 0.5;
+}
+
+
+a:hover img {
+  opacity: 0.5;
+}
+
+
+/* selection
+------------------------------------------------------------*/
+
+::selection {
+    background: #fdee24; /*背景色*/
+}
+::-moz-selection {
+    background: #fdee24; /*背景色*/
+}
+
+
+/* tap(hover)
+------------------------------------------------------------*/
+.hover {
+
+}
+
+/* clearfix
+------------------------------------------------------------*/
+.clearfix::after
+{
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.clearfix
+{
+	display:inline-block;
+}
+/* exlude MacIE5 \*/
+* html .clearfix
+{
+	height:1%;
+}
+.clearfix
+{
+	display:block;
+}
+/* end MacIE5 */
+
+.clearfix + *
+{
+	clear: both;
+}
+
+
+
+
+
+
